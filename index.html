@@ -12,12 +12,14 @@
         .song-item { padding: 10px; border-bottom: 1px solid #ddd; }
         .song-item h2, .song-item p { margin: 0; }
         .votes { font-weight: bold; color: #555; }
+        .loading { text-align: center; }
     </style>
 </head>
 <body>
 
     <h1>Top Requested Songs</h1>
-    <ul class="song-list" id="results"></ul>
+    <div class="loading" id="loading">Loading voting results...</div>
+    <ul class="song-list" id="results" style="display:none;"></ul>
 
     <script>
         const sheetURL = 'https://docs.google.com/spreadsheets/d/1s8-pylOlnDZ_zNLWnaXAR5cem_lodl-DHHkNtbAtXqo/gviz/tq?tqx=out:json&gid=1461150423';
@@ -29,7 +31,12 @@
                     const jsonData = JSON.parse(data.substring(47).slice(0, -2));
                     const rows = jsonData.table.rows;
                     const resultsContainer = document.getElementById('results');
-                    
+                    const loadingMessage = document.getElementById('loading');
+
+                    // Clear loading message
+                    loadingMessage.style.display = 'none';
+                    resultsContainer.style.display = 'block';
+
                     rows.forEach(row => {
                         const songName = row.c[0]?.v || "Unknown Song";  // Column A: Song Name
                         const artistName = row.c[1]?.v || "Unknown Artist";  // Column B: Artist Name
