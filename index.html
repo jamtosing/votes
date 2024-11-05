@@ -20,18 +20,20 @@
     <ul class="song-list" id="results"></ul>
 
     <script>
-        const sheetURL = 'https://spreadsheets.google.com/feeds/list/1s8-pylOlnDZ_zNLWnaXAR5cem_lodl-DHHkNtbAtXqo/1461150423/public/values?alt=json';
+        const sheetURL = 'https://docs.google.com/spreadsheets/d/1s8-pylOlnDZ_zNLWnaXAR5cem_lodl-DHHkNtbAtXqo/gviz/tq?tqx=out:json&gid=1461150423';
 
         fetch(sheetURL)
-            .then(response => response.json())
+            .then(response => response.text())
             .then(data => {
-                const entries = data.feed.entry;
+                // Remove extra characters to parse JSON correctly
+                const jsonData = JSON.parse(data.substring(47).slice(0, -2));
+                const rows = jsonData.table.rows;
                 const resultsContainer = document.getElementById('results');
 
-                entries.forEach(entry => {
-                    const songName = entry.gsx$songname.$t;  // Column A: Song Name
-                    const artistName = entry.gsx$artistname.$t;  // Column B: Artist Name
-                    const totalVotes = entry.gsx$totalvotes.$t;  // Column C: Total Votes
+                rows.forEach(row => {
+                    const songName = row.c[0]?.v || "Unknown Song";  // Column A: Song Name
+                    const artistName = row.c[1]?.v || "Unknown Artist";  // Column B: Artist Name
+                    const totalVotes = row.c[2]?.v || 0;  // Column C: Total Votes
 
                     // Create HTML structure for each song
                     const songItem = document.createElement('li');
