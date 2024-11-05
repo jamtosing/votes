@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Results</title>
+    <style>
+        /* Styling for the voting results display */
+        body { font-family: Arial, sans-serif; padding: 20px; max-width: 600px; margin: auto; }
+        h1 { text-align: center; }
+        .song-list { list-style-type: none; padding: 0; }
+        .song-item { padding: 10px; border-bottom: 1px solid #ddd; }
+        .song-item h2, .song-item p { margin: 0; }
+        .votes { font-weight: bold; color: #555; }
+    </style>
+</head>
+<body>
+
+    <h1>Top Requested Songs</h1>
+    <ul class="song-list" id="results"></ul>
+
+    <script>
+        const sheetURL = 'https://spreadsheets.google.com/feeds/list/1461150423/od6/public/values?alt=json';
+
+        fetch(sheetURL)
+            .then(response => response.json())
+            .then(data => {
+                const entries = data.feed.entry;
+                const resultsContainer = document.getElementById('results');
+
+                entries.forEach(entry => {
+                    const songName = entry.gsx$songname.$t;  // Column A: Song Name
+                    const artistName = entry.gsx$artistname.$t;  // Column B: Artist Name
+                    const totalVotes = entry.gsx$totalvotes.$t;  // Column C: Total Votes
+
+                    // Create HTML structure for each song
+                    const songItem = document.createElement('li');
+                    songItem.className = 'song-item';
+                    songItem.innerHTML = `
+                        <h2>${songName} <span class="votes">(${totalVotes} votes)</span></h2>
+                        <p>by ${artistName}</p>
+                    `;
+                    resultsContainer.appendChild(songItem);
+                });
+            })
+            .catch(error => console.error('Error fetching data:', error));
+    </script>
+
+</body>
+</html>
