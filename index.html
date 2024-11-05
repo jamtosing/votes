@@ -22,30 +22,31 @@
     <script>
         const sheetURL = 'https://docs.google.com/spreadsheets/d/1s8-pylOlnDZ_zNLWnaXAR5cem_lodl-DHHkNtbAtXqo/gviz/tq?tqx=out:json&gid=1461150423';
 
-        fetch(sheetURL)
-            .then(response => response.text())
-            .then(data => {
-                // Remove extra characters to parse JSON correctly
-                const jsonData = JSON.parse(data.substring(47).slice(0, -2));
-                const rows = jsonData.table.rows;
-                const resultsContainer = document.getElementById('results');
+       document.addEventListener('DOMContentLoaded', () => {
+    fetch(sheetURL)
+        .then(response => response.text())
+        .then(data => {
+            const jsonData = JSON.parse(data.substring(47).slice(0, -2));
+            const rows = jsonData.table.rows;
+            const resultsContainer = document.getElementById('results');
+            
+            rows.forEach(row => {
+                const songName = row.c[0]?.v || "Unknown Song";
+                const artistName = row.c[1]?.v || "Unknown Artist";
+                const totalVotes = row.c[2]?.v || 0;
 
-                rows.forEach(row => {
-                    const songName = row.c[0]?.v || "Unknown Song";  // Column A: Song Name
-                    const artistName = row.c[1]?.v || "Unknown Artist";  // Column B: Artist Name
-                    const totalVotes = row.c[2]?.v || 0;  // Column C: Total Votes
+                const songItem = document.createElement('li');
+                songItem.className = 'song-item';
+                songItem.innerHTML = `
+                    <h2>${songName} <span class="votes">(${totalVotes} votes)</span></h2>
+                    <p>by ${artistName}</p>
+                `;
+                resultsContainer.appendChild(songItem);
+            });
+        })
+        .catch(error => console.error('Error fetching data:', error));
+});
 
-                    // Create HTML structure for each song
-                    const songItem = document.createElement('li');
-                    songItem.className = 'song-item';
-                    songItem.innerHTML = `
-                        <h2>${songName} <span class="votes">(${totalVotes} votes)</span></h2>
-                        <p>by ${artistName}</p>
-                    `;
-                    resultsContainer.appendChild(songItem);
-                });
-            })
-            .catch(error => console.error('Error fetching data:', error));
     </script>
 
 </body>
