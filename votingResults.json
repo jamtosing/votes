@@ -35,8 +35,8 @@
     "totalVotes": 2
   },
   {
-    "songName": "King and Queen of Hearts",
-    "artistName": "David Pomeranz",
+    "songName": "Open Arms",
+    "artistName": "Journey",
     "totalVotes": 1
   },
   {
@@ -50,13 +50,13 @@
     "totalVotes": 0
   },
   {
-    "songName": "Follow You Follow Me",
-    "artistName": "Genesis",
+    "songName": "King and Queen of Hearts",
+    "artistName": "David Pomeranz",
     "totalVotes": 0
   },
   {
-    "songName": "Open Arms",
-    "artistName": "Journey",
+    "songName": "Follow You Follow Me",
+    "artistName": "Genesis",
     "totalVotes": 0
   }
 ]
