@@ -5,19 +5,39 @@
     "totalVotes": 18
   },
   {
-    "songName": "Only One",
-    "artistName": "Kanye West",
-    "totalVotes": 6
-  },
-  {
     "songName": "Wonderful everyday",
     "artistName": "Chance the Rapper",
     "totalVotes": 8
   },
   {
+    "songName": "Only One",
+    "artistName": "Kanye West",
+    "totalVotes": 6
+  },
+  {
+    "songName": "Because You Loved Me",
+    "artistName": "Celine Dion",
+    "totalVotes": 5
+  },
+  {
+    "songName": "You Needed Me",
+    "artistName": "Anne Murray",
+    "totalVotes": 3
+  },
+  {
     "songName": "Suspicious Minds",
     "artistName": "Elvis Presley",
     "totalVotes": 2
+  },
+  {
+    "songName": "Dance With Me",
+    "artistName": "Orleans",
+    "totalVotes": 2
+  },
+  {
+    "songName": "King and Queen of Hearts",
+    "artistName": "David Pomeranz",
+    "totalVotes": 1
   },
   {
     "songName": "Angels like you",
@@ -28,25 +48,5 @@
     "songName": "Zombie",
     "artistName": "The cranberries",
     "totalVotes": 0
-  },
-  {
-    "songName": "Dance With Me",
-    "artistName": "Orleans",
-    "totalVotes": 2
-  },
-  {
-    "songName": "You Needed Me",
-    "artistName": "Anne Murray",
-    "totalVotes": 3
-  },
-  {
-    "songName": "King and Queen of Hearts",
-    "artistName": "David Pomeranz",
-    "totalVotes": 1
-  },
-  {
-    "songName": "Because You Loved Me",
-    "artistName": "Celine Dion",
-    "totalVotes": 5
   }
 ]
