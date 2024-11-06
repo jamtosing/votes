@@ -1,1 +1,27 @@
-{}
+[
+  {
+    "songName": "Song Name",
+    "artistName": "Artist Name",
+    "totalVotes": "Total Votes"
+  },
+  {
+    "songName": "Ain't no mountain high enough",
+    "artistName": "Idk",
+    "totalVotes": 18
+  },
+  {
+    "songName": "Only One",
+    "artistName": "Kanye West",
+    "totalVotes": 11
+  },
+  {
+    "songName": "Wonderful everyday",
+    "artistName": "Chance the Rapper",
+    "totalVotes": 8
+  },
+  {
+    "songName": "Suspicious Minds",
+    "artistName": "Elvis Presley",
+    "totalVotes": 2
+  }
+]
