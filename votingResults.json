@@ -7,7 +7,7 @@
   {
     "songName": "Only One",
     "artistName": "Kanye West",
-    "totalVotes": 11
+    "totalVotes": 6
   },
   {
     "songName": "Wonderful everyday",
@@ -32,16 +32,21 @@
   {
     "songName": "Dance With Me",
     "artistName": "Orleans",
-    "totalVotes": 0
+    "totalVotes": 2
   },
   {
     "songName": "You Needed Me",
     "artistName": "Anne Murray",
-    "totalVotes": 0
+    "totalVotes": 3
   },
   {
     "songName": "King and Queen of Hearts",
     "artistName": "David Pomeranz",
-    "totalVotes": 0
+    "totalVotes": 1
+  },
+  {
+    "songName": "Because You Loved Me",
+    "artistName": "Celine Dion",
+    "totalVotes": 5
   }
 ]
