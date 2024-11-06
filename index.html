@@ -22,14 +22,13 @@
     <ul class="song-list" id="results" style="display:none;"></ul>
 
     <script>
-        const sheetURL = 'https://docs.google.com/spreadsheets/d/1s8-pylOlnDZ_zNLWnaXAR5cem_lodl-DHHkNtbAtXqo/gviz/tq?tqx=out:json&gid=1461150423&range=A:C';
+        // URL to the raw JSON file in your GitHub repository
+        const githubJSONURL = 'https://raw.githubusercontent.com/jamtosing/votes/main/votingResults.json';
 
         document.addEventListener('DOMContentLoaded', () => {
-            fetch(sheetURL)
-                .then(response => response.text())
+            fetch(githubJSONURL)
+                .then(response => response.json()) // Fetch the JSON file
                 .then(data => {
-                    const jsonData = JSON.parse(data.substring(47).slice(0, -2));
-                    const rows = jsonData.table.rows;
                     const resultsContainer = document.getElementById('results');
                     const loadingMessage = document.getElementById('loading');
 
@@ -37,10 +36,11 @@
                     loadingMessage.style.display = 'none';
                     resultsContainer.style.display = 'block';
 
-                    rows.forEach(row => {
-                        const songName = row.c[0]?.v || "Unknown Song";  // Column A: Song Name
-                        const artistName = row.c[1]?.v || "Unknown Artist";  // Column B: Artist Name
-                        const totalVotes = row.c[2]?.v || 0;  // Column C: Total Votes
+                    // Loop through the results and display them
+                    data.forEach(song => {
+                        const songName = song.songName || "Unknown Song";
+                        const artistName = song.artistName || "Unknown Artist";
+                        const totalVotes = song.totalVotes || 0;
 
                         const songItem = document.createElement('li');
                         songItem.className = 'song-item';
