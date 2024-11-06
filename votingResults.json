@@ -1,10 +1,5 @@
 [
   {
-    "songName": "Song Name",
-    "artistName": "Artist Name",
-    "totalVotes": "Total Votes"
-  },
-  {
     "songName": "Ain't no mountain high enough",
     "artistName": "Idk",
     "totalVotes": 18
@@ -23,5 +18,15 @@
     "songName": "Suspicious Minds",
     "artistName": "Elvis Presley",
     "totalVotes": 2
+  },
+  {
+    "songName": "Angels like you",
+    "artistName": "Miley cyrus ",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Zombie",
+    "artistName": "The cranberries",
+    "totalVotes": 0
   }
 ]
