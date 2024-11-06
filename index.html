@@ -1,36 +1,62 @@
-const githubJSONURL = 'https://raw.githubusercontent.com/jamtosing/votes/main/votingResults.json';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Results</title>
+    <style>
+        /* Styling for the voting results display */
+        body { font-family: Arial, sans-serif; padding: 20px; max-width: 600px; margin: auto; }
+        h1 { text-align: center; }
+        .song-list { list-style-type: none; padding: 0; }
+        .song-item { padding: 10px; border-bottom: 1px solid #ddd; }
+        .song-item h2, .song-item p { margin: 0; }
+        .votes { font-weight: bold; color: #555; }
+        .loading { text-align: center; }
+    </style>
+</head>
+<body>
 
-// Add a timestamp to the URL to prevent caching
-const urlWithTimestamp = `${githubJSONURL}?t=${new Date().getTime()}`;
+    <h1>Top Requested Songs</h1>
+    <div class="loading" id="loading">Loading voting results...</div>
+    <ul class="song-list" id="results" style="display:none;"></ul>
 
-document.addEventListener('DOMContentLoaded', () => {
-    fetch(urlWithTimestamp)  // Use the updated URL with timestamp
-        .then(response => response.json()) // Fetch the JSON file
-        .then(data => {
-            const resultsContainer = document.getElementById('results');
-            const loadingMessage = document.getElementById('loading');
+    <script>
+        const githubJSONURL = 'https://raw.githubusercontent.com/jamtosing/votes/main/votingResults.json'; // URL of the GitHub JSON file
+        const urlWithTimestamp = `${githubJSONURL}?t=${new Date().getTime()}`;  // Cache-busting with timestamp
 
-            // Clear loading message
-            loadingMessage.style.display = 'none';
-            resultsContainer.style.display = 'block';
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch(urlWithTimestamp)
+                .then(response => response.json()) // Fetch the JSON file
+                .then(data => {
+                    const resultsContainer = document.getElementById('results');
+                    const loadingMessage = document.getElementById('loading');
 
-            // Loop through the results and display them
-            data.forEach(song => {
-                const songName = song.songName || "Unknown Song";
-                const artistName = song.artistName || "Unknown Artist";
-                const totalVotes = song.totalVotes || 0;
+                    // Clear loading message
+                    loadingMessage.style.display = 'none';
+                    resultsContainer.style.display = 'block';
 
-                const songItem = document.createElement('li');
-                songItem.className = 'song-item';
-                songItem.innerHTML = `
-                    <h2>${songName} <span class="votes">(${totalVotes} votes)</span></h2>
-                    <p>by ${artistName}</p>
-                `;
-                resultsContainer.appendChild(songItem);
-            });
-        })
-        .catch(error => {
-            console.error('Error fetching data:', error);
-            document.getElementById('results').innerHTML = "<p>Could not load voting results. Please try again later.</p>";
+                    // Loop through the results and display them
+                    data.forEach(song => {
+                        const songName = song.songName || "Unknown Song";
+                        const artistName = song.artistName || "Unknown Artist";
+                        const totalVotes = song.totalVotes || 0;
+
+                        const songItem = document.createElement('li');
+                        songItem.className = 'song-item';
+                        songItem.innerHTML = `
+                            <h2>${songName} <span class="votes">(${totalVotes} votes)</span></h2>
+                            <p>by ${artistName}</p>
+                        `;
+                        resultsContainer.appendChild(songItem);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                    document.getElementById('results').innerHTML = "<p>Could not load voting results. Please try again later.</p>";
+                });
         });
-});
+    </script>
+
+</body>
+</html>
