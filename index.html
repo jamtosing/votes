@@ -51,6 +51,35 @@
             text-align: center;
             margin: 0;
         }
+        button {
+            margin: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #fff;
+            color: black;
+            border-radius: 24px;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px, rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+            text-align: center;
+            width: auto;
+        }
+
+        button:hover {
+            background: #F6F9FE;
+            color: #36454F;
+        }
+
+        button:active {
+            box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+            outline: none;
+        }
+
+        button:focus {
+            outline: none;
+            border: 2px solid #36454F;
+        }
+        
         .central {
             display: flex;
     justify-content: center; /* Centers content horizontally */
@@ -84,6 +113,7 @@
     <div class="loading" id="loading">Loading voting results...</div>
     <ul class="song-list" id="results" style="display:none;"></ul>
     <div class=central>
+        <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfVewVc4GZ28p5qEbZ8Jqa9r-yhBCb8m3GH8tt3V1sbWe5RKA/viewform?usp=sf_link'">Request a Song</button>
     <a href="https://www.youtube.com/@jamtosing" target="_blank">
     <img src="https://github.com/jamtosing/votes/raw/refs/heads/main/JTS Logo transparent background" alt="Logo" class="logo">
 </a></div>
