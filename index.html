@@ -58,6 +58,23 @@
     align-items: center; /* Centers content vertically if needed */
     width: 100%;
         }
+
+        /* Mobile-specific styles */
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+            .form-container {
+                justify-content: flex-start;
+            }
+            .header-logo {
+                margin: 0 0 5px 0;
+            }
+            .header-title {
+                text-align: center;
+            }
+        }
     </style>
 </head>
 <body>
