@@ -5,6 +5,11 @@
     "totalVotes": 18
   },
   {
+    "songName": "Zombie",
+    "artistName": "The cranberries",
+    "totalVotes": 8
+  },
+  {
     "songName": "Only One",
     "artistName": "Kanye West",
     "totalVotes": 6
@@ -47,11 +52,6 @@
   {
     "songName": "Angels like you",
     "artistName": "Miley cyrus ",
-    "totalVotes": 0
-  },
-  {
-    "songName": "Zombie",
-    "artistName": "The cranberries",
     "totalVotes": 0
   },
   {
