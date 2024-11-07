@@ -39,13 +39,19 @@
             height: 80px;
             border-radius: 50%;
             object-fit: cover;
-            margin: 0 auto 20px;
+            margin-bottom: 20px;
         }
 
         /* Title styling */
         .header-title {
             text-align: center;
             margin: 0;
+        }
+        .central {
+            display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically if needed */
+    width: 100%;
         }
     </style>
 </head>
@@ -56,9 +62,10 @@
     </div>
     <div class="loading" id="loading">Loading voting results...</div>
     <ul class="song-list" id="results" style="display:none;"></ul>
+    <div class=central>
     <a href="https://www.youtube.com/@jamtosing" target="_blank">
     <img src="https://github.com/jamtosing/votes/raw/refs/heads/main/JTSlogo" alt="Logo" class="logo">
-</a>
+</a></div>
 
     <script>
         const githubAPIURL = 'https://api.github.com/repos/jamtosing/votes/contents/votingResults.json?ref=main'; // GitHub API URL to fetch the raw content
