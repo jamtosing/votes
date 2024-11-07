@@ -2,7 +2,12 @@
   {
     "songName": "Ain't no mountain high enough",
     "artistName": "Idk",
-    "totalVotes": 18
+    "totalVotes": 21
+  },
+  {
+    "songName": "Because You Loved Me",
+    "artistName": "Celine Dion",
+    "totalVotes": 9
   },
   {
     "songName": "Suspicious Minds",
@@ -15,11 +20,6 @@
     "totalVotes": 6
   },
   {
-    "songName": "Because You Loved Me",
-    "artistName": "Celine Dion",
-    "totalVotes": 5
-  },
-  {
     "songName": "Wonderful everyday",
     "artistName": "Chance the Rapper",
     "totalVotes": 4
@@ -27,11 +27,16 @@
   {
     "songName": "You Needed Me",
     "artistName": "Anne Murray",
-    "totalVotes": 3
+    "totalVotes": 4
   },
   {
     "songName": "Dance With Me",
     "artistName": "Orleans",
+    "totalVotes": 2
+  },
+  {
+    "songName": "Movin On",
+    "artistName": "Missouri",
     "totalVotes": 2
   },
   {
@@ -52,11 +57,6 @@
   {
     "songName": "Follow You Follow Me",
     "artistName": "Genesis",
-    "totalVotes": 0
-  },
-  {
-    "songName": "Movin On",
-    "artistName": "Missouri",
     "totalVotes": 0
   }
 ]
