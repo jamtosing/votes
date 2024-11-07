@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Voting Results</title>
     <style>
+        
         /* Styling for the voting results display */
         body { font-family: Arial, sans-serif; padding: 20px; max-width: 600px; margin: auto; }
         h1 { text-align: center; }
@@ -13,13 +14,51 @@
         .song-item h2, .song-item p { margin: 0; }
         .votes { font-weight: bold; color: #555; }
         .loading { text-align: center; }
+
+        /* Header container */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Center logo and title horizontally */
+            padding: 10px;
+            padding-bottom: 0px;
+            width: 100%;
+        }
+
+        /* Logo styling */
+        .header-logo {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px; /* Add spacing between logo and title */
+        }
+        
+        .logo {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        /* Title styling */
+        .header-title {
+            text-align: center;
+            margin: 0;
+        }
     </style>
 </head>
 <body>
-
-    <h1>Top Requested Songs</h1>
+<div class="header">
+        <img src="https://github.com/jamtosing/votes/raw/refs/heads/main/JTSlogo" alt="Jam To Sing Logo" class="header-logo">
+        <h1 class="header-title">Top Requested Songs</h1>
+    </div>
     <div class="loading" id="loading">Loading voting results...</div>
     <ul class="song-list" id="results" style="display:none;"></ul>
+    <a href="https://www.youtube.com/@jamtosing" target="_blank">
+    <img src="https://github.com/jamtosing/votes/raw/refs/heads/main/JTSlogo" alt="Logo" class="logo">
+</a>
 
     <script>
         const githubAPIURL = 'https://api.github.com/repos/jamtosing/votes/contents/votingResults.json?ref=main'; // GitHub API URL to fetch the raw content
