@@ -5,18 +5,13 @@
     "totalVotes": 18
   },
   {
-    "songName": "Suspicious Minds",
-    "artistName": "Elvis Presley",
-    "totalVotes": 7
-  },
-  {
     "songName": "Only One",
     "artistName": "Kanye West",
     "totalVotes": 6
   },
   {
-    "songName": "Because You Loved Me",
-    "artistName": "Celine Dion",
+    "songName": "King and Queen of Hearts",
+    "artistName": "David Pomeranz",
     "totalVotes": 5
   },
   {
@@ -27,12 +22,27 @@
   {
     "songName": "You Needed Me",
     "artistName": "Anne Murray",
-    "totalVotes": 3
+    "totalVotes": 4
   },
   {
     "songName": "Dance With Me",
     "artistName": "Orleans",
+    "totalVotes": 3
+  },
+  {
+    "songName": "Suspicious Minds",
+    "artistName": "Elvis Presley",
     "totalVotes": 2
+  },
+  {
+    "songName": "Follow You Follow Me",
+    "artistName": "Genesis",
+    "totalVotes": 2
+  },
+  {
+    "songName": "Movin On",
+    "artistName": "Missouri",
+    "totalVotes": 1
   },
   {
     "songName": "Angels like you",
@@ -45,18 +55,8 @@
     "totalVotes": 0
   },
   {
-    "songName": "King and Queen of Hearts",
-    "artistName": "David Pomeranz",
-    "totalVotes": 0
-  },
-  {
-    "songName": "Follow You Follow Me",
-    "artistName": "Genesis",
-    "totalVotes": 0
-  },
-  {
-    "songName": "Movin On",
-    "artistName": "Missouri",
+    "songName": "Because You Loved Me",
+    "artistName": "Celine Dion",
     "totalVotes": 0
   }
 ]
