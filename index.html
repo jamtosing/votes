@@ -11,7 +11,7 @@
         h1 { text-align: center; }
         .song-list { list-style-type: none; padding: 0; }
         .song-item { padding: 10px; border-bottom: 1px solid #ddd; }
-        .song-item h2, .song-item p { margin: 0; }
+        .song-item h3, .song-item p { margin: 0; }
         .votes { font-weight: bold; color: #555; }
         .loading { text-align: center; }
 
@@ -86,7 +86,7 @@
                         const songItem = document.createElement('li');
                         songItem.className = 'song-item';
                         songItem.innerHTML = `
-                            <h2>${songName} <span class="votes">(${totalVotes} votes)</span></h2>
+                            <h3>${songName} <span class="votes">(${totalVotes} votes)</span></h3>
                             <p>by ${artistName}</p>
                         `;
                         resultsContainer.appendChild(songItem);
