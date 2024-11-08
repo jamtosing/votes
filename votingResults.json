@@ -5,9 +5,9 @@
     "totalVotes": 18
   },
   {
-    "songName": "King and Queen of Hearts",
-    "artistName": "David Pomeranz",
-    "totalVotes": 10
+    "songName": "Suspicious Minds",
+    "artistName": "Elvis Presley",
+    "totalVotes": 17
   },
   {
     "songName": "Zombie",
@@ -20,13 +20,8 @@
     "totalVotes": 6
   },
   {
-    "songName": "Because You Loved Me",
-    "artistName": "Celine Dion",
-    "totalVotes": 6
-  },
-  {
-    "songName": "Movin On",
-    "artistName": "Missouri",
+    "songName": "King and Queen of Hearts",
+    "artistName": "David Pomeranz",
     "totalVotes": 5
   },
   {
@@ -45,18 +40,23 @@
     "totalVotes": 3
   },
   {
-    "songName": "Suspicious Minds",
-    "artistName": "Elvis Presley",
-    "totalVotes": 2
-  },
-  {
     "songName": "Follow You Follow Me",
     "artistName": "Genesis",
     "totalVotes": 2
   },
   {
+    "songName": "Movin On",
+    "artistName": "Missouri",
+    "totalVotes": 1
+  },
+  {
     "songName": "Angels like you",
     "artistName": "Miley cyrus ",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Because You Loved Me",
+    "artistName": "Celine Dion",
     "totalVotes": 0
   }
 ]
