@@ -5,6 +5,11 @@
     "totalVotes": 18
   },
   {
+    "songName": "King and Queen of Hearts",
+    "artistName": "David Pomeranz",
+    "totalVotes": 10
+  },
+  {
     "songName": "Zombie",
     "artistName": "The cranberries",
     "totalVotes": 9
@@ -15,8 +20,13 @@
     "totalVotes": 6
   },
   {
-    "songName": "King and Queen of Hearts",
-    "artistName": "David Pomeranz",
+    "songName": "Because You Loved Me",
+    "artistName": "Celine Dion",
+    "totalVotes": 6
+  },
+  {
+    "songName": "Movin On",
+    "artistName": "Missouri",
     "totalVotes": 5
   },
   {
@@ -45,18 +55,8 @@
     "totalVotes": 2
   },
   {
-    "songName": "Movin On",
-    "artistName": "Missouri",
-    "totalVotes": 1
-  },
-  {
     "songName": "Angels like you",
     "artistName": "Miley cyrus ",
-    "totalVotes": 0
-  },
-  {
-    "songName": "Because You Loved Me",
-    "artistName": "Celine Dion",
     "totalVotes": 0
   }
 ]
