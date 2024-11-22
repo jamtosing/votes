@@ -5,11 +5,6 @@
     "totalVotes": 18
   },
   {
-    "songName": "Because You Loved Me",
-    "artistName": "Celine Dion",
-    "totalVotes": 15
-  },
-  {
     "songName": "Zombie",
     "artistName": "The cranberries",
     "totalVotes": 9
@@ -57,6 +52,11 @@
   {
     "songName": "Angels like you",
     "artistName": "Miley cyrus ",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Because You Loved Me",
+    "artistName": "Celine Dion",
     "totalVotes": 0
   }
 ]
