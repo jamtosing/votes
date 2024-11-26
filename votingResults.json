@@ -1,62 +1,127 @@
 [
   {
-    "songName": "Ain't no mountain high enough",
-    "artistName": "Idk",
-    "totalVotes": 18
+    "songName": "O Holy Night",
+    "artistName": "",
+    "totalVotes": 0
   },
   {
-    "songName": "Zombie",
-    "artistName": "The cranberries",
-    "totalVotes": 9
-  },
-  {
-    "songName": "Only One",
-    "artistName": "Kanye West",
-    "totalVotes": 6
-  },
-  {
-    "songName": "King and Queen of Hearts",
-    "artistName": "David Pomeranz",
-    "totalVotes": 5
-  },
-  {
-    "songName": "Wonderful everyday",
-    "artistName": "Chance the Rapper",
-    "totalVotes": 4
-  },
-  {
-    "songName": "You Needed Me",
-    "artistName": "Anne Murray",
-    "totalVotes": 4
-  },
-  {
-    "songName": "Dance With Me",
-    "artistName": "Orleans",
-    "totalVotes": 3
-  },
-  {
-    "songName": "Suspicious Minds",
-    "artistName": "Elvis Presley",
-    "totalVotes": 2
-  },
-  {
-    "songName": "Follow You Follow Me",
-    "artistName": "Genesis",
-    "totalVotes": 2
+    "songName": "Open Arms",
+    "artistName": "Journey",
+    "totalVotes": 0
   },
   {
     "songName": "Movin On",
     "artistName": "Missouri",
-    "totalVotes": 1
+    "totalVotes": 0
   },
   {
-    "songName": "Angels like you",
-    "artistName": "Miley cyrus ",
+    "songName": "Suspicious Minds",
+    "artistName": "Elvis Presley",
     "totalVotes": 0
   },
   {
     "songName": "Because You Loved Me",
     "artistName": "Celine Dion",
+    "totalVotes": 0
+  },
+  {
+    "songName": "King and Queen Of Hearts",
+    "artistName": "David Pomeranz",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Dance With Me",
+    "artistName": "Orleans",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Follow You Follow Me",
+    "artistName": "Genesis",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Kayleigh",
+    "artistName": "Marillion",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Airport",
+    "artistName": "The Motors",
+    "totalVotes": 0
+  },
+  {
+    "songName": "New York New York",
+    "artistName": "Frank Sinatra",
+    "totalVotes": 0
+  },
+  {
+    "songName": "You Are My Life",
+    "artistName": "Revolvers",
+    "totalVotes": 0
+  },
+  {
+    "songName": "You Needed Me",
+    "artistName": "Anne Murray",
+    "totalVotes": 0
+  },
+  {
+    "songName": "To Love Somebody",
+    "artistName": "Michael Bolton",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Never Enough",
+    "artistName": "The Greatest Showman",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Something",
+    "artistName": "Elvis Presley Version",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Bang!",
+    "artistName": "AJR",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Crying",
+    "artistName": "Roy Orbison",
+    "totalVotes": 0
+  },
+  {
+    "songName": "The Load Out",
+    "artistName": "Jackson Browne",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Maybe",
+    "artistName": "The Chantels",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Run To You",
+    "artistName": "Bryan Adams",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Love me Tender",
+    "artistName": "Elvis Presley Version",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Will You Still Love Me Tomorrow",
+    "artistName": "The Shirelles",
+    "totalVotes": 0
+  },
+  {
+    "songName": "You Make Me Feel Like Dancing",
+    "artistName": "Leo Sayer",
+    "totalVotes": 0
+  },
+  {
+    "songName": "This is it",
+    "artistName": "Huey Lewis and the News",
     "totalVotes": 0
   }
 ]
