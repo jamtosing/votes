@@ -1,12 +1,17 @@
 [
   {
-    "songName": "O Holy Night",
-    "artistName": "",
-    "totalVotes": 0
-  },
-  {
     "songName": "Open Arms",
     "artistName": "Journey",
+    "totalVotes": 5
+  },
+  {
+    "songName": "King and Queen Of Hearts",
+    "artistName": "David Pomeranz",
+    "totalVotes": 3
+  },
+  {
+    "songName": "O Holy Night",
+    "artistName": "",
     "totalVotes": 0
   },
   {
@@ -22,11 +27,6 @@
   {
     "songName": "Because You Loved Me",
     "artistName": "Celine Dion",
-    "totalVotes": 0
-  },
-  {
-    "songName": "King and Queen Of Hearts",
-    "artistName": "David Pomeranz",
     "totalVotes": 0
   },
   {
