@@ -5,6 +5,11 @@
     "totalVotes": 4
   },
   {
+    "songName": "Blue Christmas",
+    "artistName": "Elvis",
+    "totalVotes": 3
+  },
+  {
     "songName": "King and Queen Of Hearts",
     "artistName": "David Pomeranz",
     "totalVotes": 2
@@ -117,11 +122,6 @@
   {
     "songName": "This Is It",
     "artistName": "Huey Lewis and the News",
-    "totalVotes": 0
-  },
-  {
-    "songName": "Blue Christmas ",
-    "artistName": "Elvis",
     "totalVotes": 0
   },
   {
