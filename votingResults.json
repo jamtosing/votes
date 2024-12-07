@@ -15,6 +15,11 @@
     "totalVotes": 2
   },
   {
+    "songName": "This Is It",
+    "artistName": "Huey Lewis and the News.",
+    "totalVotes": 1
+  },
+  {
     "songName": "Movin On",
     "artistName": "Missouri",
     "totalVotes": 0
@@ -122,11 +127,6 @@
   {
     "songName": "If I Can Dream",
     "artistName": "Elvis Presley",
-    "totalVotes": 0
-  },
-  {
-    "songName": "This Is It",
-    "artistName": "Huey Lewis and the News.",
     "totalVotes": 0
   }
 ]
