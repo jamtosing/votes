@@ -1,10 +1,5 @@
 [
   {
-    "songName": "Blue Christmas",
-    "artistName": "Elvis",
-    "totalVotes": 3
-  },
-  {
     "songName": "King and Queen Of Hearts",
     "artistName": "David Pomeranz",
     "totalVotes": 2
@@ -47,11 +42,6 @@
   {
     "songName": "New York New York",
     "artistName": "Frank Sinatra",
-    "totalVotes": 0
-  },
-  {
-    "songName": "You Are My Life",
-    "artistName": "Revolvers",
     "totalVotes": 0
   },
   {
