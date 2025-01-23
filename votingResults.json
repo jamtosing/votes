@@ -5,6 +5,11 @@
     "totalVotes": 5
   },
   {
+    "songName": "King and Queen Of Hearts",
+    "artistName": "David Pomeranz",
+    "totalVotes": 2
+  },
+  {
     "songName": "Movin On",
     "artistName": "Missouri",
     "totalVotes": 0
@@ -12,11 +17,6 @@
   {
     "songName": "Suspicious Minds",
     "artistName": "Elvis Presley",
-    "totalVotes": 0
-  },
-  {
-    "songName": "King and Queen Of Hearts",
-    "artistName": "David Pomeranz",
     "totalVotes": 0
   },
   {
