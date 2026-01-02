@@ -223,5 +223,10 @@
     "songName": "Riders on the storm",
     "artistName": "The Doors",
     "totalVotes": 0
+  },
+  {
+    "songName": "Your Song",
+    "artistName": "Elton John",
+    "totalVotes": 0
   }
 ]
