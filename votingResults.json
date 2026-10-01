@@ -95,11 +95,6 @@
     "totalVotes": 0
   },
   {
-    "songName": "Love on the Rocks",
-    "artistName": "Neil Diamond",
-    "totalVotes": 0
-  },
-  {
     "songName": "Queenie Eye",
     "artistName": "Paul McCartney",
     "totalVotes": 0
@@ -135,11 +130,6 @@
     "totalVotes": 0
   },
   {
-    "songName": "You are my destiny",
-    "artistName": "Paul Anka",
-    "totalVotes": 0
-  },
-  {
     "songName": "Pink Pony Club",
     "artistName": "Chappell Roan",
     "totalVotes": 0
@@ -165,18 +155,8 @@
     "totalVotes": 0
   },
   {
-    "songName": "I will always love you",
-    "artistName": "Whitney Houston",
-    "totalVotes": 0
-  },
-  {
     "songName": "Oh! Carol",
     "artistName": "Neil Sedaka",
-    "totalVotes": 0
-  },
-  {
-    "songName": "Take It To The Limit",
-    "artistName": "The Eagles",
     "totalVotes": 0
   },
   {
@@ -225,11 +205,6 @@
     "totalVotes": 0
   },
   {
-    "songName": "Your Song",
-    "artistName": "Elton John",
-    "totalVotes": 0
-  },
-  {
     "songName": "I Left My Heart In San Francisco",
     "artistName": "Tony Bennett",
     "totalVotes": 0
@@ -237,6 +212,46 @@
   {
     "songName": "Beautiful In My Eyes",
     "artistName": "Joshua Kadison",
+    "totalVotes": 0
+  },
+  {
+    "songName": "you are the reason",
+    "artistName": "Calum Scott",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Goodbye girl",
+    "artistName": "David gate",
+    "totalVotes": 0
+  },
+  {
+    "songName": "California Dreamin?",
+    "artistName": "The Mamas and the Papas",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Total Eclipse of the Heart",
+    "artistName": "Bonnie Tyler",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Already Gone",
+    "artistName": "Kelly Clarkson",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Hard Habit To Break",
+    "artistName": "Chicago",
+    "totalVotes": 0
+  },
+  {
+    "songName": "Location Unknown",
+    "artistName": "Honne",
+    "totalVotes": 0
+  },
+  {
+    "songName": "No Expectations",
+    "artistName": "The Rolling Stones",
     "totalVotes": 0
   }
 ]
